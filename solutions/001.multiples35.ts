@@ -11,8 +11,7 @@ export const myFunc = (num: number = 1000): number => {
         }
     }
 
-    console.log(total)
     return total
 }
 
-myFunc()
+console.log(myFunc())
