@@ -1,7 +1,7 @@
-export const myFunc = (num = 1000) => {
+export const myFunc = (num: number = 1000): number => {
     // Validate input
     if (num < 0 || !Number.isInteger(num)) {
-        return `invalid input`
+        throw new Error('invalid argument')
     }
 
     let total = 0
