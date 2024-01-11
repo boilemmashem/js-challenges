@@ -19,6 +19,7 @@ const pythagoreanTriplet = () => {
                 if(Math.pow(a, 2) + Math.pow(b, 2) === Math.pow(c, 2)) {
                     if(a + b + c === 1000) {
                         console.log(`a:${a}, b:${b}, c:${c}`)
+                        console.log(`Product abc: ${a*b*c}`)
                     }
                 }
             }
