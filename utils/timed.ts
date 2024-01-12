@@ -8,7 +8,7 @@
  * @param func 
  * @returns 
  */
-export const timed = (func: Function) => (...args: any): Function => {
+export default (func: Function) => (...args: any): Function => {
     const start: number = performance.now()
     const ret: any = func(...args)
     console.log(

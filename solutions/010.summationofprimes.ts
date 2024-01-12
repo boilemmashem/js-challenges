@@ -2,6 +2,7 @@
 // Sum of primes *BELOW* 10 is 17
 // This code takes a while to run 🐌
 
+import timed from '../utils/timed'
 
 const isPrime = (num) => {
     if(num === 1) { return false }
@@ -16,7 +17,7 @@ const isPrime = (num) => {
     return true
 }
 
-const summationOfPrimes = (limit) => {
+let summationOfPrimes: any = (limit) => {
     // Go through each number and check if it's a prime
     let primes: number[] = []
     for(let i = 1; i < limit; i++) {
@@ -30,4 +31,5 @@ const summationOfPrimes = (limit) => {
     return primes.reduce((a, b) => a+b)
 }
 
-console.log(summationOfPrimes(2000000))
+summationOfPrimes = timed(summationOfPrimes)
+console.log(`answer: ${summationOfPrimes(2000000)}`)
