@@ -7,7 +7,7 @@ import timed from '../utils/timed'
 const isPrime = (num) => {
     if(num === 1) { return false }
     if(num  === 2  || num === 3) { return true }
-    for(let i = 2; i <= Math.ceil(num / 2); i++) {
+    for(let i = 2; i <= Math.ceil(Math.sqrt(num)); i++) {
         if(num % i === 0) {
             // if we can divide it's not a prime
             return false
