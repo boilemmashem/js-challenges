@@ -12,3 +12,5 @@ npm install
 ``` bash
 tsx filename
 ```
+
+Decided to stop with project euler challenges since they are more in line with data science. Daily problems will now focus on more typical software engineer challenges.
