@@ -1,5 +1,5 @@
 # projecteuler
-math based programming challenges https://projecteuler.net
+daily js challenges to enhance problem solving
 
 Typescript files can be run with ts-node
 
