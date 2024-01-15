@@ -1,4 +1,4 @@
-# projecteuler
+# Js Challenges
 daily js challenges to enhance problem solving
 
 Typescript files can be run with ts-node
