@@ -14,4 +14,9 @@ const getNames = (arr: {name: string}[]) :string[] => {
     return arr.map((obj) => obj.name)
 }
 
+const getProperty = (arr: object[], prop: string) => {
+    return arr.map((obj) => obj[prop])
+}
+
 console.log(getNames(input))
+console.log(getProperty(input, "name"))
