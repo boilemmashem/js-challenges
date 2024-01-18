@@ -1,16 +1,19 @@
-# Js Challenges
-daily js challenges to enhance problem solving
+# Daily challenges
+Daily challenges to enhance problem solving
 
-Typescript files can be run with ts-node
 
-## Install depencencies
+## Dependencies
+
+Some of the challenges use typescript in the solutions, to install the dependencies:
+
+### Install dependencies
+
 ```bash
 npm install
 ```
 
-### Run a program
+### Run a program with ts-node
 ``` bash
 tsx filename
 ```
 
-Decided to stop with project euler challenges since they are more in line with data science. Daily problems will now focus on more typical software engineer challenges.
